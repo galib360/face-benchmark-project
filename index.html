@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="Wide West, 3D facial animation, Animation, benchmark">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="icon" href="./assets/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/js/fontawesome.all.min.js"></script>
+  <script src="./assets/js/bulma-carousel.min.js"></script>
+  <script src="./assets/js/bulma-slider.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study</h1>
+          <h2 class="title is-3 publication-title">(Conditionally Accepted at <a href="https://eg25.cs.ucl.ac.uk/main/home.html" target="_blank">Eurographics 2025</a>)</h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"> <a href="https://www.uu.nl/staff/KIHaque"> Kazi Injamamul Haque </a>, </span>
+            <span class="author-block"> <a href="#"> Alkiviadis Pavlou </a>, </span>
+            <span class="author-block"> <a href="https://www.uu.nl/staff/ZYumak"> Zerrin Yumak </a> </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Utrecht University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+            <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-google-scholar"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="#video-container" class="button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/galib360/face-benchmark"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advancements in the field of audio-driven 3D facial animation have accelerated rapidly, with numerous papers being published in a short span of time. This surge in research has garnered significant attention from both academia and industry with its potential applications on digital humans. Various approaches, both deterministic and non-deterministic, have been explored based on foundational advancements in deep learning algorithms. However, there remains no consensus among researchers on standardized methods for evaluating these techniques. Additionally, rather than converging on a common set of datasets and objective metrics suited for specific methods, recent works exhibit considerable variation in experimental setups. This inconsistency complicates the research landscape, making it difficult to establish a streamlined evaluation process and rendering many cross-paper comparisons challenging. Moreover, the common practice of A/B testing in perceptual studies focus only on two common metrics and not sufficient for non-deterministic and emotion-enabled approaches. The lack of correlations between subjective and objective metrics points out that there is a need for critical analysis in this space.  In this study, we address these issues by benchmarking state-of-the-art deterministic and non-deterministic models, utilizing a consistent experimental setup across a carefully curated set of objective metrics and datasets. We also conduct a perceptual user study to assess whether subjective perceptual metrics align with the objective metrics. Our findings indicate that model rankings do not necessarily generalize across datasets, and subjective metric ratings are not always consistent with their corresponding objective metrics.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Supplementary Video</h2>
+        <div id="video-container" class="publication-video">
+          <iframe src="./assets/SupplementaryVideo.mp4"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> <br>
+    <!--/ Paper video. -->
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre>
+      <code>
+        @inproceedings{HaquePavlouYumak_EG2025,
+        author = {Haque, Kazi Injamamul and Pavlou,  Alkiviadis and Yumak,  Zerrin},
+        title = {"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study},
+        booktitle = {},
+        year = {2025},
+        location = {},
+        numpages = {},
+        url = {},
+        doi = {},
+        publisher = {},
+        address = {}
+        } 
+        
+        PS: the full bibtex will be provided after getting the DOI.
+      </code>
+    </pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website based on the <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page.
+            If you want to reuse their source code, please credit them appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

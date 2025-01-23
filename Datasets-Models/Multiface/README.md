@@ -1,0 +1,1 @@
+# This directory contains the edited scripts needed to train the respective models on Multiface dataset. For training ProbTalk3D with 3DMEAD, we refer to the original code repository of [ProbTalk3D](https://github.com/uuembodiedsocialai/ProbTalk3D/tree/main). 
