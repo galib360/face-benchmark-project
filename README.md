@@ -1,7 +1,7 @@
-# **"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study <br> (Conditionally Accepted at Eurographics 2025, London, UK)**
+# **"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study <br> (Accepted at Eurographics 2025, London, UK)**
 ### This repository contains the documentation and edited code scripts of models used for the benchmark study in the paper. 
 
-> **"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study (Conditionally Accepted at [Eurographics 2025](https://eg25.cs.ucl.ac.uk/main/home.html), London, UK)**
+> **"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study (Accepted at [Eurographics 2025](https://eg25.cs.ucl.ac.uk/main/home.html), London, UK)**
 >
 > <a href='https://galib360.github.io/face-benchmark-project/'><img src='https://img.shields.io/badge/Project-Website-blue'></a>
 > <a href='https://galib360.github.io/face-benchmark-project/#video-container' target="_blank"><img src='https://img.shields.io/badge/Supplementary-Video-Green'></a> 
@@ -151,17 +151,14 @@ The objective metrics used in our benchmark study are carefully selected to cove
 ## Citation ## 
 If you find this repository useful for your research work, please consider starring this repository and citing it (PS: the bibtex is not final yet and will change after getting the DOI):
 ```
-@inproceedings{HaquePavlouYumak_EG2025,
+@article{HaquePavlouYumak_EG2025,
+        journal = {Computer Graphics Forum},
+        title = {{"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study}},
         author = {Haque, Kazi Injamamul and Pavlou,  Alkiviadis and Yumak,  Zerrin},
-        title = {"Wild West" of Evaluating Speech-Driven 3D Facial Animation Synthesis: A Benchmark Study},
-        booktitle = {},
         year = {2025},
-        location = {},
-        numpages = {},
-        url = {},
-        doi = {},
-        publisher = {},
-        address = {}
+        publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+        ISSN = {},
+        DOI = {}
         } 
 
 ```
