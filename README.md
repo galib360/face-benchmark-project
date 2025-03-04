@@ -157,8 +157,8 @@ If you find this repository useful for your research work, please consider starr
         author = {Haque, Kazi Injamamul and Pavlou,  Alkiviadis and Yumak,  Zerrin},
         year = {2025},
         publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
-        ISSN = {},
-        DOI = {}
+        ISSN = {1467-8659},
+        DOI = {10.1111/cgf.70073}
         } 
 
 ```
